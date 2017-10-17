@@ -1,0 +1,31 @@
+// Variables
+// Colors
+$text-color: #FFFFFF;
+$footer-bg-color: #65698E;
+$main-bg-color: #999999;
+$bg-color: #252525;
+
+// Global tags
+body{
+  background-color: $bg-color;
+  padding-top: 50px;
+}
+footer {
+  background-color: $footer-bg-color;
+  height: 50px;
+  margin: 10px -15px 0px -15px;
+    & div {
+      line-height: 50px;
+      vertical-align: middle;
+      color: $text-color;
+    }
+}
+
+// Classes & Ids
+.container {
+  background-color: $main-bg-color;
+}
+#weather-info, #error-message {
+  display: none;
+  margin: 25px 0px 25px 0px;
+}
